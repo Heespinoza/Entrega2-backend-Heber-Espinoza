@@ -1,8 +1,5 @@
 const express = require("express");
 const ProductManager = require("../managers/productManager.js");
-//import { Router } from 'express';
-//import { ProductManager } from '../managers/productManager.js';
-
 const router = express.Router();
 const productManager = new ProductManager("./src/data/products.json");
 

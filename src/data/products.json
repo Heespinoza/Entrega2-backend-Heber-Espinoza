@@ -8,7 +8,7 @@
     "stock": 49,
     "category": "Periféricos",
     "thumbnails": [
-      "https://example.com/images/teclado1.jpg"
+      "https://picsum.photos/id/1/200/300"
     ]
   },
   {
@@ -19,6 +19,17 @@
     "code": "B001",
     "stock": 50,
     "category": "Periféricos",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "dfsdfsf",
+    "description": "asdadsasdasd",
+    "price": "43",
+    "code": "TKB332",
+    "stock": "3",
+    "category": "perifericos",
     "status": true,
     "thumbnails": []
   }
