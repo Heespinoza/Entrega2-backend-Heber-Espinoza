@@ -10,7 +10,7 @@ class ProductManager {
         try {
             const products = await this.getProducts();
 
-            if (!title || !description || !price || !code || !stock || !category) {
+            if (!title || !description || !price || !code || !stock || !category ) {
                 throw new Error("Todos los campos son obligatorios.");
             }
 

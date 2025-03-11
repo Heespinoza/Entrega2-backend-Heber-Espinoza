@@ -6,7 +6,7 @@ body {
     border: none;
     border-radius: 15px;
     transition: transform 0.3s;
-    background: linear-gradient(135deg, #3494e6, #ec6ead); /* Gradient de colores */
+    background: linear-gradient(135deg, #343a40, #ec6ead); /* Gradient de colores */
     color: #fff; /* Color del texto principal */
 }
 

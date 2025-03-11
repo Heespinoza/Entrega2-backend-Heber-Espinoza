@@ -1,36 +1,24 @@
 [
   {
-    "id": 1,
-    "title": "Teclado Mecánico RGB",
-    "description": "Teclado mecánico con retroiluminación RGB y switches azules.",
-    "price": 88.99,
-    "code": "TKB001",
-    "stock": 49,
-    "category": "Periféricos",
-    "thumbnails": [
-      "https://picsum.photos/id/1/200/300"
-    ]
-  },
-  {
     "id": 2,
-    "title": " Mecánico RGB",
-    "description": "Teclado mecánico con retroiluminación RGB y switches azules.",
-    "price": 9.99,
-    "code": "B001",
-    "stock": 50,
-    "category": "Periféricos",
+    "title": "Teclado Mecánico Corsair K70 RGB MK.2",
+    "description": "Teclado mecánico para juegos con retroiluminación RGB personalizable y switches Cherry MX.",
+    "price": "149",
+    "code": "TCK70RGBMK2",
+    "stock": "25",
+    "category": "Teclados",
     "status": true,
-    "thumbnails": []
+    "thumbnails": "https://picsum.photos/seed/picsum/200/300"
   },
   {
     "id": 3,
-    "title": "dfsdfsf",
-    "description": "asdadsasdasd",
-    "price": "43",
-    "code": "TKB332",
-    "stock": "3",
-    "category": "perifericos",
+    "title": "Ratón Logitech G Pro Wireless",
+    "description": "Ratón inalámbrico para juegos con sensor HERO 25K y diseño ambidiestro.",
+    "price": "129",
+    "code": "RLGPROWIRE",
+    "stock": "15",
+    "category": "Ratones",
     "status": true,
-    "thumbnails": []
+    "thumbnails": "https://picsum.photos/seed/picsum/200/300"
   }
 ]

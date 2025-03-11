@@ -24,7 +24,10 @@ function updateProductList(productList) {
             <li>stock: ${product.stock}</li>
             thumbnail: <img src="${product.thumbnails}" alt="img" class="img-thumbnail img-fluid">        </ul>
             </p>
-        
+            </div>
+            <div class="d-flex justify-content-center mb-4">
+            <button type="button" class="btn btn-danger delete-btn" onclick="deleteProduct(${product.id})">Eliminar</button>
+            </div>
         
     </div>
 </div>`;
@@ -45,7 +48,7 @@ function updateProductList(productList) {
     let category = form.elements.category.value;
     let price = form.elements.price.value;
     let code = form.elements.code.value;
-    let status = form.elements.status.checked; // Obtén el valor del checkbox
+    let status = form.elements.status.checked; 
   
     socketC.emit("addProduct", {
       title,
@@ -61,3 +64,8 @@ function updateProductList(productList) {
   
     form.reset();
   });
+
+  //Eliminar Producto Card
+  function deleteProduct(productId) {
+    socketC.emit("deleteProduct", productId);
+  }

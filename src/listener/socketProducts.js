@@ -13,6 +13,12 @@ const socketProducts = (socketServer) => {
             const listadeproductos=await pm.getProducts()
             socketServer.emit("enviodeproducts",listadeproductos)
             })
+        socket.on("deleteProduct",async(id)=>{
+            
+            await pm.deleteProduct(id)
+            const listadeproductos=await pm.getProducts()
+            socketServer.emit("enviodeproducts",listadeproductos)
+            })    
 
             
         
